@@ -1,0 +1,61 @@
+@font-face {
+	font-family: "Made Waffle Soft";
+    src:url(../fonts/MADEWaffleSoftPERSONALUSE.otf)
+	
+}
+html{
+    background-color: #C1ECCB;
+    ;
+}
+header{
+    background-color: #7FDEB2;
+    display: flex;
+    padding-left: 3%;
+}
+
+header #rond{
+    background-color: #C1ECCB;
+    margin-right: 2%;
+    margin: 0.5%;
+    width: 90px;
+    height: 52px;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    border: 1px solid #000000;
+}
+header img{
+    width: 70%;
+    margin: 7px 8px;
+}
+header input{
+    border-radius: 20px;
+    border:none;
+    margin: 5% 10% ;
+    padding: 2%;
+    padding-right: 15%;
+    font-family: Arial;
+}
+header #recherche{
+    width: 50%;
+}
+header #recherche ::placeholder{
+     background-image: url(bg.jpg);
+    background-repeat: no-repeat;
+    text-indent: 20px;
+}
+header #text_header a{
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #000000;
+    margin-right: 5%;
+    font-family: "Made Waffle Soft";
+    position: relative;
+    top: 5px;
+}
+header #text_header{
+    width: 100%;
+    margin: 1.75%;
+    position: relative;
+    left: 4%;
+}
